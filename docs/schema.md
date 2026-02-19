@@ -1,5 +1,5 @@
 
-## Movies Collection
+### Movies Collection
 
 | Field        | Type            | Required | Description |
 |--------------|----------------|----------|------------|
@@ -15,7 +15,7 @@
 
 
 
-## Reviews Collection
+### Reviews Collection
 
 | Field      | Type      | Required | Description |
 |------------|----------|----------|------------|
@@ -29,7 +29,7 @@
 
 
 
-# Movies Collection
+### Movies Collection
 
 | Field        | Type           | Description                              | Example                          |
 |-------------|---------------|------------------------------------------|----------------------------------|
@@ -44,7 +44,7 @@
 
 ---
 
-# Reviews Collection
+## Reviews Collection
 
 | Field     | Type          | Description                              | Example                          |
 |----------|--------------|------------------------------------------|----------------------------------|
