@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Action Storm",
+    "releaseDate": "2021-05-12T00:00:00Z",
+    "genres": ["Action","Adventure"],
+    "director": "John Strong",
+    "actors": ["Actor A","Actor B"],
+    "accessType": "Premium",
+    "viewsCount": 1500
+  },
+  {
+    "title": "Laughing Dead",
+    "releaseDate": "2022-10-31T00:00:00Z",
+    "genres": ["Comedy","Horror"],
+    "director": "Jane Dark",
+    "actors": ["Actor C","Actor D"],
+    "accessType": "Public",
+    "viewsCount": 900
+  },
+  {
+    "title": "Cyber Future",
+    "releaseDate": "2024-01-10T00:00:00Z",
+    "genres": ["Sci-Fi","Action"],
+    "director": "Mark Galaxy",
+    "actors": ["Actor E","Actor F"],
+    "accessType": "Premium",
+    "viewsCount": 3200
+  },
+  {
+    "title": "Romantic Escape",
+    "releaseDate": "2019-02-14T00:00:00Z",
+    "genres": ["Romance","Drama"],
+    "director": "Anna Heart",
+    "actors": ["Actor G","Actor H"],
+    "accessType": "Public",
+    "viewsCount": 600
+  },
+  {
+    "title": "Mystery Lake",
+    "releaseDate": "2020-09-09T00:00:00Z",
+    "genres": ["Thriller","Mystery"],
+    "director": "Clara Deep",
+    "actors": ["Actor I","Actor J"],
+    "accessType": "Public",
+    "viewsCount": 500
+  },
+  {
+    "title": "Fantasy Kingdom",
+    "releaseDate": "2023-08-08T00:00:00Z",
+    "genres": ["Fantasy","Action"],
+    "director": "Anna Heart",
+    "actors": ["Actor M","Actor N"],
+    "accessType": "Premium",
+    "viewsCount": 2800
+  },
+  {
+    "title": "Ghost Town",
+    "releaseDate": "2018-11-11T00:00:00Z",
+    "genres": ["Horror"],
+    "director": "Jane Dark",
+    "actors": ["Actor O","Actor P"],
+    "accessType": "Public",
+    "viewsCount": 400
+  },
+  {
+    "title": "Stand Up Night",
+    "releaseDate": "2022-06-01T00:00:00Z",
+    "genres": ["Comedy"],
+    "director": "Funny Guy",
+    "actors": ["Actor Q","Actor R"],
+    "accessType": "Public",
+    "viewsCount": 1000
+  },
+  {
+    "title": "Galactic War",
+    "releaseDate": "2023-03-15T00:00:00Z",
+    "genres": ["Sci-Fi","Action"],
+    "director": "Mark Galaxy",
+    "actors": ["Actor S","Actor T"],
+    "accessType": "Premium",
+    "viewsCount": 3500
+  },
+  {
+    "title": "Fast Wheels",
+    "releaseDate": "2021-07-20T00:00:00Z",
+    "genres": ["Action"],
+    "director": "John Strong",
+    "actors": ["Actor I","Actor J"],
+    "accessType": "Premium",
+    "viewsCount": 2101
+  }
+]
