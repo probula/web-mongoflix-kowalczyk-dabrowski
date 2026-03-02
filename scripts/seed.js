@@ -7,7 +7,7 @@ console.log("kolekcje movis i reviews wyczyszczone");
 const sciezkaMovies = require("../data/movies.json");
 
 
-//data stringi na obiekty isodate
+//data stringi na obiekty ISOdate
 const moviesData = sciezkaMovies.map(movie => ({
     ...movie,
         releaseDate: new ISODate(movie.releaseDate)
