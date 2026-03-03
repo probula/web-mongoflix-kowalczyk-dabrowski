@@ -1,16 +1,23 @@
-use mongoflix;
+print("start seed")
+
+db = db.getSiblingDB("mongoflix");
 
 db.movies.drop();
 db.reviews.drop();
 console.log("kolekcje movis i reviews wyczyszczone");
 
-const sciezkaMovies = require("../data/movies.json");
 
+const fs = require("fs");
+const rawData = fs.readFileSync("../data/movies.json", "utf8");
+print("plik wczytany");
+
+const moviesList = JSON.parse(rawData);
+print("json parse");
 
 //data stringi na obiekty ISOdate
-const moviesData = sciezkaMovies.map(movie => ({
+const moviesData = moviesList.map(movie => ({
     ...movie,
-        releaseDate: new ISODate(movie.releaseDate)
+        releaseDate: ISODate(movie.releaseDate)
 }))
 
 const moviesResult = db.movies.insertMany(moviesData);
@@ -30,3 +37,5 @@ db.reviews.insertMany([
 ]);
 
 console.log("dodano rezencje")
+
+
