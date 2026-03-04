@@ -29,3 +29,10 @@ const avg = db.movies.aggregate([
     }
 ])
 printjson(avg)
+
+print("aktualizacja danych")
+const update = db.movies.updateMany(
+    { viewsCount: { $gt: 3000 } },
+    { $set: { featured: true } }
+)
+printjson(update)
