@@ -8,7 +8,7 @@ console.log("kolekcje movis i reviews wyczyszczone");
 
 
 const fs = require("fs");
-const rawData = fs.readFileSync("../data/movies.json", "utf8");
+const rawData = fs.readFileSync("./data/movies.json", "utf8"); //mozliwe bledy zmienic sciezke na ../ lub ./
 print("plik wczytany");
 
 const moviesList = JSON.parse(rawData);
