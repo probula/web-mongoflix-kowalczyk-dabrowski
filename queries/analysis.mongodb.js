@@ -14,3 +14,18 @@ const gtand = db.movies.find({
     ]
 })
 printjson(gtand);
+
+print("srednia");
+const avg = db.movies.aggregate([
+    { $unwind: "$genres" },
+    {
+        $group: {
+            _id: "$genres",
+            averageViews: { $avg: "$viewsCount" }
+        }
+    },
+    {
+        $sort: { averageViews: -1 }
+    }
+])
+printjson(avg)
